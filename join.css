@@ -1,0 +1,53 @@
+/* Styling for the join page */
+#content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#content h1 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content p {
+    font-size: 18px;
+    color: var(--secondary-text-color);
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--hover-text-color);
+}
