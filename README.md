@@ -1,2 +1,10 @@
 # mulemotorworks.github.io
-skeleton website for mules sae
+This is a skeleton website for the Mules Formula SAE team
+
+##Authors
+Kevin Gustafson
+
+#Files
+File descriptions
+
+##index.html
