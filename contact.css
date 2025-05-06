@@ -1,0 +1,58 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General styling for the contact page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--secondary-text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Contact section styling */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    margin-bottom: 20px;
+    padding: 30px; /* Reduced padding */
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--nav-bg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%; /* Increased width */
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-section a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+    color: var(--hover-text-color);
+}

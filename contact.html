@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Formula SAE Website</title>
+    <title>Contact Us - My Formula SAE Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <div id="navbar-container"></div>
 
-    <section id="home">
-        <h1>About Us</h1>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        
+        <div class="contact-section">
+            <h2>General Contact</h2>
+            <p>Name: James Lind</p>
+            <p>Email: <a href="jilind28@colby.edu">jilind28@colby.edu</a></p>
+        </div>
+
+        <div class="contact-section">
+            <h2>Engineering Contacts</h2>
+            <p>Name: Zach Gellert</p>
+            <p>Email: <a href="zjgell27@colby.edu">zjgell27@colby.edu</a></p>
+            <p>Name: Patrick Kuprewicz</p>
+            <p>Email: <a href="pnkupr28@colby.edu">pnkupr28@colby.edu</a></p>
+        </div>
+
+        <div class="contact-section">
+            <h2>Computer Contact</h2>
+            <p>Name: Kevin Gustafson</p>
+            <p>Email: <a href="kpgust28@colby.edu">kpgust28@colby.edu</a></p>
+        </div>
     </section>
 
     <script>
@@ -22,7 +43,16 @@
                 });
         }
 
+        function loadFooter() {
+            fetch('footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.body.insertAdjacentHTML('beforeend', data);
+                });
+        }
+
         loadNavbar();
+        loadFooter();
     </script>
 </body>
 </html>

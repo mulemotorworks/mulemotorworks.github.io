@@ -1,0 +1,11 @@
+/* Footer styling */
+.footer {
+    margin-top: auto;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
