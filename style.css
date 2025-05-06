@@ -14,11 +14,13 @@
 /* Define global color variables */
 :root {
     --primary-color: #4454eb;
-    --secondary-color: #8a8a8a;
+    --secondary-color: #000000;
     --text-color: white;
+    --secondary-text-color: #000000;
     --hover-bg-color: #ffffff;
     --hover-text-color: #333;
     --nav-bg-color: rgba(255, 255, 255, 0.2);
+    --bg-color: white;
 }
 
 /* Body styling */
@@ -54,6 +56,10 @@ body {
 
 /* Navbar links styling */
 .nav-links {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -62,6 +68,11 @@ body {
     background-color: var(--nav-bg-color);
     padding: 10px 20px;
     gap: 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-links:hover {
+    background-color: var(--primary-color);
 }
 
 .nav-links li {
@@ -84,11 +95,6 @@ body {
     background-color: var(--hover-bg-color);
     color: var(--hover-text-color);
     transform: scale(1.1);
-}
-
-/* Add a fun animation */
-.nav-links a:active {
-    transform: rotate(5deg);
 }
 
 /* Responsive Design */
