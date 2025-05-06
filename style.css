@@ -1,7 +1,5 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* Importing a better font for the logo */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 /* Basic reset for padding and margins */
@@ -32,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Signika', sans-serif;
-    font-size: 1.6vw; /* Use viewport width for font size */
+    font-size: 16px;
     line-height: 1.6;
-    padding: 2%; /* Use percentage for padding */
+    padding: 0;
 }

@@ -13,44 +13,44 @@ body {
 
 /* Contact section styling */
 #contact {
-    padding: 5% 10%; /* Use percentages for padding */
+    padding: 40px 20px;
     text-align: center;
 }
 
 #contact h1 {
-    font-size: 3vw; /* Use viewport width for font size */
+    font-size: 36px;
     color: var(--primary-color);
-    margin-bottom: 2%;
+    margin-bottom: 20px;
 }
 
 .contact-section {
-    margin-bottom: 2%;
-    padding: 3%; /* Use percentages for padding */
-    border: 0.2vw solid var(--primary-color); /* Use viewport width for border */
-    border-radius: 1%; /* Use percentage for border radius */
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
     background-color: var(--nav-bg-color);
-    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2); /* Use viewport width for shadow */
-    width: 60%; /* Percentage width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
 .contact-section h2 {
-    font-size: 2.5vw; /* Use viewport width for font size */
+    font-size: 24px;
     color: var(--secondary-color);
-    margin-bottom: 1%;
+    margin-bottom: 10px;
 }
 
 .contact-section p {
-    font-size: 1.5vw; /* Use viewport width for font size */
-    margin: 1% 0;
+    font-size: 16px;
+    margin: 5px 0;
 }
 
 .contact-section a {
     color: var(--primary-color);
     text-decoration: none;
-    font-size: 1.5vw; /* Use viewport width for font size */
+    font-size: 16px;
     font-weight: 700;
     transition: color 0.3s ease;
 }

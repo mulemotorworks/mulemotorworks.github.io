@@ -7,31 +7,31 @@
 
 .text-box {
     position: absolute;
-    bottom: -5%; /* Use percentage for positioning */
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 50%; /* Use percentage for width */
+    width: 50%;
     background-color: white;
     color: black;
-    padding: 2%; /* Use percentage for padding */
+    padding: 20px;
     text-align: center;
     z-index: 2;
     font-family: 'Montserrat', sans-serif;
     border-color: black;
-    border-width: 0.2vw; /* Use viewport width for border width */
+    border-width: 2px;
     border-style: solid;
-    border-radius: 1%; /* Use percentage for border radius */
+    border-radius: 10px;
 }
 
 .text-box h1 {
-    font-size: 2.5vw; /* Use viewport width for font size */
-    margin-bottom: 1%;
+    font-size: 24px;
+    margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
 .text-box p {
-    font-size: 1.5vw; /* Use viewport width for font size */
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 
