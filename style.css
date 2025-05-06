@@ -34,3 +34,20 @@ body {
     line-height: 1.6;
     padding: 0;
 }
+
+/* Responsive adjustments for iPhones */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .button, a.button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

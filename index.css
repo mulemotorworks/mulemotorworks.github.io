@@ -38,3 +38,24 @@
 .content {
     margin-top: 50px;
 }
+
+/* Responsive adjustments for iPhones */
+@media (max-width: 768px) {
+    .text-box {
+        width: 90%;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .text-box p {
+        font-size: 14px;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+}
